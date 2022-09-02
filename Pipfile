@@ -1,0 +1,24 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+fastapi = "*"
+gunicorn = "*"
+uvicorn = "*"
+jinja2 = "*"
+pytest = "*"
+requests = "*"
+pre-commit = "*"
+python-dotenv = "*"
+aiofiles = "*"
+python-multipart = "*"
+pillow = "*"
+pytesseract = "*"
+black = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
